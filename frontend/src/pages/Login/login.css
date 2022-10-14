@@ -1,0 +1,68 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.div-usuario {
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    margin: 6rem auto;
+    border: 0.5px solid grey;
+  }
+  
+  .div-usuario-user {
+  width: 25rem;
+  display: flex;
+  justify-content: center;
+  }
+  
+  .div-usuario-img {
+    width: 25rem;
+  }
+  
+  .img-user {
+    width: 25rem;
+  }
+  .form-user {
+    padding: 3rem;
+  }
+  .a-user {
+  padding: 0.2rem;
+  }
+  
+  .input-user {
+    width: 18rem;
+  }
+  .h2-user {
+    padding-bottom: 1rem;
+  }
+  .pIncorrecta {
+    color: red;
+    padding: 0;
+    margin: 0;
+  }
+  #divpassIncorrecta {
+    height: 0.1rem;
+  }
+  
+  
+  
+  @media screen and (max-width: 600px )  {
+    .img-user {
+      display: none;
+      
+    }
+    .div-usuario {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+      margin: auto;
+      border: none;
+    }
+    .h2-user {
+        padding-left: 4.8rem;
+    }
+  }
+

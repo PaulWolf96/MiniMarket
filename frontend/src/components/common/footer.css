@@ -1,0 +1,33 @@
+.containerFooter {
+  background-color:lightgray
+}
+.logoFooter {
+  display:block;
+  margin: auto ;
+}
+.linksFooter {
+  color: black;
+  margin: auto;
+}
+.redesFooter {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+  width: 15rem;
+}
+.col1Footer {
+  padding-top: 2rem;
+}
+.copyright {
+  font-size: 0.9rem;
+}
+.imgRedesFooter {
+  margin: 0 0.5rem;
+}
+
+@media screen and (min-width: 700px) {
+  .redesFooter {
+    width: 350px;
+    text-align: center;
+  }
+}

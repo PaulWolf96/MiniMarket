@@ -1,0 +1,11 @@
+.link-dark:focus, .link-dark:hover {
+    color:#ccc !important;  
+  
+  }
+  .bg-gris {
+    background-color: #adb5bd ;
+   }
+   
+   .bg-grisOscuro{
+    background-color: #7d868e;
+   }

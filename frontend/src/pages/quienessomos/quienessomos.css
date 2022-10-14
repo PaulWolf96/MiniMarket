@@ -1,0 +1,30 @@
+.tituloQuienesSomos {
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .tituloQuienesSomos:before,
+  .tituloQuienesSomos:after {
+    background-color: #09C3E8;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  .tituloQuienesSomos:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .tituloQuienesSomos:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+  .nosotrosBtn {
+    background: rgb(9,195,232);
+  background: linear-gradient(109deg, rgba(9,195,232,1) 10%, rgb(0, 113, 179) 100%);
+  }
+ 

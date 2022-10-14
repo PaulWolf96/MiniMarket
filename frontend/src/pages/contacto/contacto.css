@@ -1,0 +1,17 @@
+h3 {
+    text-align: center;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .bg-gris {
+    background-color: #adb5bd ;
+   }
+   
+   .bg-grisOscuro{
+    background-color: #7d868e;
+   }
