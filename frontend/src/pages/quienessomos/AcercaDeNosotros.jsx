@@ -6,6 +6,7 @@ import NavBar from "../../components/common/navbar";
 import Footer from "../../components/common/footer";
 import FotoFacundo from "../../img/Foto-Facundo.jpg";
 import FotoPablo from "../../img/Foto-Pablo.jpg";
+import FotoDiana from "../../img/Foto-Diana.jpg";
 
   
 const AcercaDeNosotros= () => {
@@ -23,7 +24,7 @@ const AcercaDeNosotros= () => {
 
     },
     { nombre: "Diana Constanza",
-       foto: "",
+       foto: FotoDiana,
        instagram: "", 
        descripcion: "Somos una empresa familiar fundada en la ciudad de Córdoba en el año 2009. Nuestro principal capital invertido fue esfuerzo, trabajo y las ganas de superarnos día a día con la esperanza de crear una estructura sólida que nos permitiera hacer frente a los distintos desafíos que se nos podían presentar a lo largo del tiempo",
 
@@ -49,7 +50,7 @@ const AcercaDeNosotros= () => {
     <article className="d-flex flex-wrap align-items-center bg-grisOscuro justify-content-around py-2"> 
       <Descripcion Integrante ={integrantes[2]}>
       </Descripcion>
-      <Imagen Foto={integrantes[0]}>
+      <Imagen Foto={integrantes[2]}>
       </Imagen>
     </article>
     
