@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <Container fluid className="containerFooter">
         <Row>
-          <Col className="col1Footer"><img src={Logo} alt="" width="110px" className="logoFooter"></img></Col>
+          <Col className="col1Footer"><a href="/home"><img src={Logo} alt="" width="110px" className="logoFooter"></img></a></Col>
           <Col className="col2Footer">
           <div className="redesFooter">
             <img src={IgLogo} alt="" width="50px" className="imgRedesFooter"></img>
